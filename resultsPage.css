@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(254, 254, 254);
+}
+.letter
+{
+    font-size: 30px;
+    
+    display: inline-block;
+
+}
+.topPart
+{
+    display: inline-block;
+    text-decoration: none;
+    align-items: center;
+    position: relative;
+}
+.searchTab
+{  margin-top: 10px;;
+     width:40%;
+    border: rgb(75, 74, 74);
+    font-size: large;
+    margin-top: 5px;
+    border-radius: 30px;
+    padding: 10px;
+    padding-left:40px;
+    left:40px;
+    background-color: rgb(215, 229, 241);
+    shape-outside: margin-box;
+   position:relative;
+    
+}
+#all-filters
+{
+    align-items: right;
+}
+
+/*
+Design for lists below the search tab
+
+
+*/
+.activityList
+{
+    display: inline-;
+    left: 110px;
+    align-items: center;
+    position: relative;
+
+}
+#butImg,#butVid,#butSho,#butNew,#butGam
+{
+    font-size: large;
+    padding: 5px 10px;
+    border-radius: 30px;
+    border: 0px;
+    
+}
+hr{
+    border-top: 0.5px solid #000; /* Adjust border properties */
+    margin: 20px 0; /* Adjust margin for spacing */
+    width:100%
+}

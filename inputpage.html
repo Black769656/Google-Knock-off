@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="inputPage.css">
+
+</head>
+<body>
+    <header>
+        <label class="Darkmode" id="Darkmode"></label>
+    </header>
+    <h1 class="Title">
+        Input page
+    </h1>
+    
+    <div class="maincontents">
+        <ul>
+            <li>
+                <label for="strTitle">Title</label>
+                <input type="text" class="strTitle"></li>
+            <li>
+                <label for="strCategory">Category</label>
+                <select class="strCategory">
+                <option value="opNews">News</option>
+                <option value="opBlog">Blog</option>
+                <option value="opArticle">Article</option>
+            </select></li>
+            <li>
+                <label for="strTopic">Topic</label>
+                <input type="text" class="strTopic"></li>
+            <li>
+                <label for="strHeader">Header</label>
+                <input type="text" class="strHeader"></li>
+            <li>
+                <label for="strContents">Contents</label>
+                <textarea id="strContents" class="strContents"></textarea>
+            <li>
+                <label for="strKeywords">Keywords</label>
+                <textarea id="strKeywords" class="strKeywords" placeholder="use hastags and put comma at the end"></textarea>
+        </ul>
+        <button class="submitButton" id="submit">SUBMIT</button>
+    </div>
+  
+<script src="inputpage.js"></script>
+</body>
+</html>

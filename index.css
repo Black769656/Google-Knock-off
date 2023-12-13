@@ -1,0 +1,111 @@
+body{
+    background-color: rgb(36, 34, 34);
+}
+.topList
+{
+    list-style: none;
+    padding: 10px;
+    text-align: right;
+}
+a{
+    text-decoration: none;
+    margin-right: 10px;
+    color: black;
+}
+.wholeGoogle
+{
+    text-align: center;
+
+}
+.textGoogle
+{
+   
+    display:flex;
+    justify-content: center;
+    margin: 0 10px;
+    font-size: 80px;
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+}
+
+#G{
+    color:rgb(48, 48, 191);
+}
+#o{
+    color:rgb(255, 0, 0);
+}
+#o1{
+    color:rgb(223, 216, 4);
+}
+#g{
+    color:rgb(57, 57, 164);
+}
+#l{
+    color:rgb(0, 255, 17);
+}
+#e{
+    color:rgb(255, 0, 0);
+}
+.searchContainer
+{
+    position: relative;
+    
+}
+.searchTab
+{  margin-top: 10px;;
+     width:40%;
+    border: rgb(75, 74, 74);
+    font-size: large;
+    margin-top: 5px;
+    border-radius: 30px;
+    padding: 10px;
+    padding-left:40px;
+   
+   position:relative;
+    
+}
+.search-icon
+{   align-items: center;
+    align-self: center;
+    color: #888;
+}
+#searchButton
+{
+    font-size: medium;
+    border: none;
+    background-color: rgb(232, 227, 227);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#feelingLucky
+{
+    font-size: medium;
+    border: none;
+    background-color: rgb(232, 227, 227);
+    border-radius: 5px;
+    padding: 10px;
+}
+#searchButton:hover
+{
+    background-color:  rgb(215, 212, 212);
+    border: 1px solid rgb(116, 114, 114);
+}
+#feelingLucky:hover
+{
+    background-color:  rgb(215, 212, 212);
+    border: 1px solid rgb(116, 114, 114);
+}
+.searchTab:hover{
+    border: 1px solid rgb(205, 198, 198);
+    background-color: rgb(253, 253, 253);
+    
+}
+.spacer
+{
+    height: 150px;
+}
+
