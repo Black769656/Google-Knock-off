@@ -5,40 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <header id="header" >The Enigma Project</header>
 </head>
 <body>
-<ul class="topList">
-    <a href="https://www.gmail.com">Gmail</a>
-    <a href="https://www.google.com/Images">Images</a>
-    <a href="inputpage.html">Register</a>
-    <i class="fas fa-home"></i>
-    
-</ul>
-<div class="spacer"></div>
-<div class="wholeGoogle">
-    <ul class="textGoogle">
-        <li><a id="G">G</a></li>
-        <li><a id="o">o</a></li>
-        <li><a id="o1">o</a></li>
-        <li><a id="g">g</a></li>
-        <li><a id="l">l</a></li>
-        <li><a id="e">e</a></li> 
-    </ul>
-    <div class="searchContainer">
-        <i class="search-icon" data-feather="search"></i>
-        <input type="text"  class="searchTab" placeholder="Search">
-    </div>
-
-    <ul>
-        <button id="searchButton"> Google Search</button>
-        <button id="feelingLucky">I'm feeling lucky</button>
-    </ul>
-</div>
-    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
-    <script>
-        feather.replace();
-    </script>
+    <div class="toggleButton"></div>
+    <div class="contents">
+        <textarea id="strInput" placeholder="Enter a message here"></textarea>
+        <label id="miniTitle">Select Disk</label>
+        <ul class="diskSelection">
+            <select id="selDiski"></select>
+            <select id="selDiskii"></select>
+            <select id="selDiskiii"></select>
+        </ul>
+        <label id="miniTitle">Select Starting Order</label>
+        <ul class="startingNumber">
+            <select id="startingNum1"></select>
+            <select id="startingNum2"></select>
+            <select id="startingNum3"></script>
+            </select>
+        </ul>
+        <label id="miniTitle">Enter letters you want to swap</label>
+        <div class="letterSwap">
+            <ul class="letterSwapTop" id="letterSwapTop"></ul>
+            <ul class="letterSwapBottom" id="letterSwapBottom"></ul>
+        </div>
+        
+        <button id="butEncry">Encrypt</button>
+        <label class="outputStr">Output goes here</label>
+    </div> 
     <script src="index.js"></script>
 </body>
 </html>
